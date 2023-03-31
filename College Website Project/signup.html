@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College - SignUp</title>
+</head>
+
+<body>
+    <header>
+        <h1>Signup Page</h1>
+    </header>
+    <main>
+        <div>
+            <h4>Enter Your Details Carefully</h4>
+            <form action="backend.js">
+                Name : <input type="text"> <br><br>
+                Course : <input type="text"> <br><br>
+                <div id="year">
+                    <label for="year1">
+                        Year : <input type="radio" id="year1" value="1" name="year">1
+                    </label>
+                    <label for="year2">
+                        <input type="radio" id="year2" value="2" name="year">2
+                    </label>
+                    <label for="year3">
+                        <input type="radio" id="year3" value="3" name="year">3
+
+                    </label>
+                    <label for="year4">
+                        <input type="radio" id="year4" value="4" name="year">4
+
+                    </label>
+
+                </div>
+                <div>
+                    <br>
+                    Section : <select name="section" id="section">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select>
+                </div> <br>
+                Roll No. : <input type="text"> <br><br>
+                College : <input type="text"> <br><br>
+                <div>
+                    Branch : <select name="branch" id="branch">
+                        <option value="CSE">CSE</option>
+                        <option value="IT">IT</option>
+                        <option value="ME">ME</option>
+                        <option value="EC">EC</option>
+                        <option value="CSDS">CSDS</option>
+                        <option value="CSAI">CSAI</option>
+                        <option value="CSML">CSML</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <textarea name="hobby" id="hobby" placeholder="Your Hobbies, Skills, etc. Mention Here." cols="30"
+                        rows="10"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+
+
+        <p>Copyright 2023<sup>&#174;</sup></p>
+        <a href="/index.html">Home</a>
+
+    </footer>
+</body>
+
+</html>
